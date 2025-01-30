@@ -228,7 +228,7 @@ export default function HeroSection() {
 
         {/* Chat Widget */}
         <button className="fixed bottom-4 right-4 md:bottom-8 md:right-8 bg-[#2B1957] text-white px-4 sm:px-6 py-2 sm:py-3 rounded-full flex items-center gap-2 hover:bg-[#382468] transition-colors text-sm sm:text-base">
-          <img src="/images/contact-us-agentforce-background.webp" alt="Chat" className="w-5 h-5 sm:w-6 sm:h-6" />
+          <img src="/images/chatbot.png" alt="Chat" className="w-5 h-5 sm:w-6 sm:h-6" />
           Let's Chat!
         </button>
       </div>
