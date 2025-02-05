@@ -20,21 +20,21 @@ export default function DoubleHeader() {
   }, []);
 
   const navItems = [
-    { name: 'Products', href: '/products' },
-    { name: 'Industries', href: '/industries' },
-    { name: 'Customers', href: '/customers' },
-    { name: 'Learning', href: '/learning' },
-    { name: 'Support', href: '/support' },
-    { name: 'Company', href: '/company' },
-    { name: 'Salesforce+', href: '/plus' },
+    { name: 'Products', href: '#' },
+    { name: 'Industries', href: '#' },
+    { name: 'Customers', href: '#' },
+    { name: 'Learning', href: '#' },
+    { name: 'Support', href: '#' },
+    { name: 'Company', href: '#' },
+    { name: 'Salesforce+', href: '#' },
   ];
 
   const secondaryNavItems = [
-    { name: 'Overview', href: '/overview' },
-    { name: 'How it works', href: '/how-it-works' },
-    { name: 'Use Cases', href: '/use-cases' },
-    { name: 'Pricing', href: '/pricing' },
-    { name: 'Resources', href: '/resources' },
+    { name: 'Overview', href: '#' },
+    { name: 'How it works', href: '#' },
+    { name: 'Use Cases', href: '#' },
+    { name: 'Pricing', href: '#' },
+    { name: 'Resources', href: '#' },
   ];
 
   return (
@@ -77,13 +77,13 @@ export default function DoubleHeader() {
                 <Search className="h-5 w-5" />
               </button>
               <Link 
-                href="/contact" 
+                href="#" 
                 className="text-[14px] text-[#032D60] hover:text-[#0176D3]"
               >
                 Contact Us
               </Link>
               <Link 
-                href="tel:1800-420-7332" 
+                href="#" 
                 className="text-[14px] text-[#032D60] hover:text-[#0176D3]"
               >
                 1800-420-7332
@@ -95,13 +95,13 @@ export default function DoubleHeader() {
                 <Globe className="h-5 w-5" />
               </button>
               <Link
-                href="/login"
+                href="#"
                 className="text-[14px] text-[#032D60] hover:text-[#0176D3] font-semibold"
               >
                 Login
               </Link>
               <Link
-                href="/try-for-free"
+                href="#"
                 className="inline-flex items-center px-5 py-[10px] text-[14px] font-semibold rounded-[4px] text-white bg-[#0176D3] hover:bg-[#0B5CAB] transition-colors"
               >
                 Try for free
@@ -141,7 +141,7 @@ export default function DoubleHeader() {
               ))}
               <div className="pt-4 space-y-3 border-t border-gray-200">
                 <Link
-                  href="/contact"
+                  href="#"
                   className="block text-[14px] text-[#032D60] hover:text-[#0176D3]"
                 >
                   Contact Us
@@ -153,13 +153,13 @@ export default function DoubleHeader() {
                   1800-420-7332
                 </Link>
                 <Link
-                  href="/login"
+                  href="#"
                   className="block text-[14px] text-[#032D60] hover:text-[#0176D3] font-semibold"
                 >
                   Login
                 </Link>
                 <Link
-                  href="/try-for-free"
+                  href="#"
                   className="block w-full text-center px-5 py-[10px] text-[14px] font-semibold rounded-[4px] text-white bg-[#0176D3] hover:bg-[#0B5CAB] transition-colors"
                 >
                   Try for free
@@ -203,13 +203,13 @@ export default function DoubleHeader() {
             </div>
             <div className="ml-auto hidden lg:flex lg:items-center lg:space-x-4">
               <Link
-                href="/watch-demos"
+                href="#"
                 className="px-4 py-2 text-[14px] font-semibold text-white bg-[#0176D3] rounded-[4px] hover:bg-[#0B5CAB] transition-colors"
               >
                 Watch demos
               </Link>
               <Link
-                href="/join-community"
+                href="#"
                 className="px-4 py-2 text-[14px] font-semibold text-[#0176D3] border border-[#0176D3] rounded-[4px] hover:bg-[#F4F6F9] transition-colors"
               >
                 Join the community
