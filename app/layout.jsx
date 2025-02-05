@@ -29,7 +29,7 @@ import { Inter } from 'next/font/google';
 
 export const metadata = {
   title: 'kimmymae.ai',
-  description: 'Created with Next.js and Tailwind CSS',
+  description: 'The Kimmymae.AI Platform',
 }
 
 export default function RootLayout({ children }) {
